@@ -5,7 +5,6 @@
 import random
 import time
 
-
 #%%#############################
 ## Example Arrays for Sorting ##
 ################################

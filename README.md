@@ -129,12 +129,12 @@ This is accomplished using the basic groupSort approach of hash table and range.
 O(n) -- when all operations considered
 
 O(b), where b is the <ins>number of digit-length buckets</ins>  
-O(b) consists of b \* O(th), where i is the <ins>number of top-halves</ins> in each bucket  
+O(b) consists of b \* O(th), where th is the <ins>number of top-halves</ins> in each bucket  
 b \* th <= n
 
 #### Step Logic
 
-For every digit-length group, for every top-half, sort the matching bottom-halves.  
+For every digit-length group, sort the top-halves.  
 This is accomplished using the basic groupSort approach of hash table and range.
 
 ### 3.1.5 Concatanate Sorted Digit-Length Buckets
@@ -146,7 +146,7 @@ b <= n
 
 #### Step Logic
 
-Every digit-length group has been sorted.
+Every digit-length group has been sorted.  
 Range over them from 0 to (max_bucket_length), concatanating their ordered elements into one final ordered array.
 
 ### 3.1.6 Final Time Complexity

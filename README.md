@@ -1,7 +1,7 @@
 # groupSort
 
 # 1. Overview  
-A sorting algorithm that uses hash tables and range to approach O(n) time complexity.  
+A sorting algorithm that uses hash tables and range to approach a O(n) time complexity.  
 
 # 2. Basic groupSort
 
@@ -188,7 +188,7 @@ Processor: AMD Ryzen 5 3600 6-Core Processor 3.60 GHz
 RAM: 16.0 GB  
 GPU: NVIDIA GeForce RTX 2060 Super  
 
-### 1 million elements, 100 million range, 100 iterations (~mergeSort outperform groupSort)
+### 1 million elements, 100 million range, 100 iterations (~mergeSort outperforms groupSort)
 
 <ins>mergeSort average time</ins>: **3.5218 sec**
 
@@ -196,7 +196,7 @@ GPU: NVIDIA GeForce RTX 2060 Super
 
 <ins>groupSort with Digit Buckets average time</ins>: **5.3258 sec**
 
-### 1 million elements, 55 million range, 100 iterations (~upper limit of groupSort with Digit Buckets)
+### 1 million elements, 55 million range, 100 iterations (~range upper limit for groupSort with Digit Buckets)
 
 <ins>mergeSort average time</ins>: **3.2718 sec**
 
@@ -204,7 +204,7 @@ GPU: NVIDIA GeForce RTX 2060 Super
 
 <ins>groupSort with Digit Buckets average time</ins>: **3.4689 sec**
 
-### 1 million elements, 15 million range, 100 iterations (~upper limit of Basic groupSort)
+### 1 million elements, 15 million range, 100 iterations (~range upper limit for Basic groupSort)
 
 <ins>mergeSort average time</ins>: **3.3170 sec**
 

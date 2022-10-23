@@ -21,7 +21,6 @@ arr7=[random.randint(0, 10000) for i in range(1000000)] #groupSort is much faste
 #taken from https://www.geeksforgeeks.org/merge-sort/ 
 #Used for comparison
 
-
 #%%############
 ## Functions ##
 ###############

@@ -9,6 +9,9 @@ import time
 ## Example Arrays for Sorting ##
 ################################
 
+#To ensure testing on identical arrays
+random.seed(5)
+
 arr1=[random.randint(0, 100000000) for i in range(1000000)] #mergeSort is better
 arr2=[random.randint(0, 55000000) for i in range(1000000)] #range upper limit groupSort with digit buckets
 arr3=[random.randint(0, 15000000) for i in range(1000000)] #range upper limit groupSort basic

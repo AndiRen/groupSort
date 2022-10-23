@@ -16,7 +16,7 @@ arr4=[random.randint(0, 10000000) for i in range(1000000)] #both groupSorts are 
 arr5=[random.randint(0, 1000000) for i in range(1000000)] #groupSort basic starts outperforming groupSort with digit buckets
 arr6=[random.randint(0, 100000) for i in range(1000000)] #groupSort is faster than mergeSort
 arr7=[random.randint(0, 10000) for i in range(1000000)] #groupSort is much faster than mergeSort
-
+arr8=[random.randint(0, 1000) for i in range(1000000)] #groupSort is just beating Python's sorted() function
 #mergeSort code by: Mayank Khanna
 #taken from https://www.geeksforgeeks.org/merge-sort/ 
 #Used for comparison

@@ -188,7 +188,7 @@ and speed up the sort when working with ranges larger than there are elements (m
 
 <ins>mergeSort average time</ins>: **3.2718 sec**
 
-<ins>Basic groupSort average time</ins>:
+<ins>Basic groupSort average time</ins>: **12.9940 sec**
 
 <ins>groupSort with Digit Buckets average time</ins>: **3.4689 sec**
 

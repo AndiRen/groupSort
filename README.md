@@ -162,6 +162,13 @@ There are no nested operations with respect to the <ins>original input</ins>.
 
 ## 3.2 Limitations
 
+### 3.2.1 Range
+
+As with basic groupSort, there is an upper limit to the range that the extended verions can handle  
+and still not be slower than mergeSort. However, the range is now about 2.75\*nlog(n).
+
+### 3.2.2 Unfinished Details
+
 Currently, I am trying to work out some kinks, like dealing with leading and trailing zeros in the decimal portion.  
 Additionally, I need to add in 'negative' digit-length buckets to work with negative numbers.  
 Note -- that is not a problem in the basic groupSort.  

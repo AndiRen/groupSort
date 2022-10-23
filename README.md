@@ -183,6 +183,11 @@ and speed up the sort when working with ranges larger than there are elements (m
 
 # 5. Benchmarks
 
+Python version used: 3.9.7  
+Processor: AMD Ryzen 5 3600 6-Core Processor 3.60 GHz  
+RAM: 16.0 GB  
+GPU: NVIDIA GeForce RTX 2060 Super  
+
 ### 1 million elements, 100 million range, 100 iterations (~mergeSort outperform groupSort)
 
 <ins>mergeSort average time</ins>: **3.5218 sec**

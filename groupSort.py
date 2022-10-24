@@ -240,7 +240,7 @@ def process_large_groups(sorted_array,length_dict,max_length,reporting):
         group_start=time.time()
         key=i    
         
-        #create dictionary of values for each bucket
+        #grab the list of values for given digit bucket
         bucket_arr=length_dict[key]
         #split elements into top and bottom halves and group bottom halves to top halves
         group_dict,min_,max_,odd=setup_top_level(bucket_arr)

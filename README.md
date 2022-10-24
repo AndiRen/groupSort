@@ -3,6 +3,10 @@
 # 1. Overview  
 A sorting algorithm that uses hash tables and range to approach a O(n) time complexity.  
 
+Note --  
+I recently became aware of two sorting algorithms called bucketSort and countingSort.  
+I haven’t looked at them in great detail, but I think some of my ideas here share a fair bit in common with some of their ideas.
+
 # 2. Basic groupSort
 
 ## 2.1 Technical Description  

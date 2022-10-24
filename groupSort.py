@@ -48,6 +48,8 @@ def groupSort(arr,reporting=False):
     if sorted==False:
         #use the range to add k instances of each unique value, in order
         sorted_array=sort_the_keys(sorting_dict,min_,max_)
+    else:
+        sorted_array=arr
 
     end_time=time.time()-start_time
 

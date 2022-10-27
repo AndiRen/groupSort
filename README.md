@@ -196,7 +196,7 @@ GPU: NVIDIA GeForce RTX 2060 Super
 
 <ins>mergeSort average time</ins>: **3.5218 sec**
 
-<ins>Basic groupSort average time</ins>: **24.8557 sec**
+<ins>Basic groupSort average time</ins>: **8.6274 sec**
 
 <ins>groupSort with Digit Buckets average time</ins>: **5.3258 sec**
 
@@ -204,15 +204,15 @@ GPU: NVIDIA GeForce RTX 2060 Super
 
 <ins>mergeSort average time</ins>: **3.2718 sec**
 
-<ins>Basic groupSort average time</ins>: **12.9940 sec**
+<ins>Basic groupSort average time</ins>: **4.9971 sec**
 
 <ins>groupSort with Digit Buckets average time</ins>: **3.4689 sec**
 
-### 1 million elements, 15 million range, 100 iterations (~range upper limit for Basic groupSort)
+### 1 million elements, 35 million range, 100 iterations (~range upper limit for Basic groupSort)
 
 <ins>mergeSort average time</ins>: **3.3170 sec**
 
-<ins>Basic groupSort average time</ins>: **3.8615 sec**
+<ins>Basic groupSort average time</ins>: **3.4003 sec**
 
 <ins>groupSort with Digit Buckets average time</ins>: **2.2284 sec**
 
@@ -220,7 +220,7 @@ GPU: NVIDIA GeForce RTX 2060 Super
 
 <ins>mergeSort average time</ins>: **3.4948 sec**
 
-<ins>groupSort average time</ins>: **2.7092 sec**
+<ins>groupSort average time</ins>: **1.2926 sec**
 
 <ins>groupSort with Digit Buckets average time</ins>: **2.2659 sec**
 
@@ -228,7 +228,7 @@ GPU: NVIDIA GeForce RTX 2060 Super
 
 <ins>mergeSort average time</ins>: **3.4874 sec**
 
-<ins>groupSort average time</ins>: **0.5025 sec**
+<ins>groupSort average time</ins>: **0.4934 sec**
 
 <ins>groupSort with Digit Buckets average time</ins>: **1.5846 sec**
 
@@ -236,7 +236,7 @@ GPU: NVIDIA GeForce RTX 2060 Super
 
 <ins>mergeSort average time</ins>: **3.4980 sec**
 
-<ins>groupSort average time</ins>: **0.2669 sec**
+<ins>groupSort average time</ins>: **0.2490 sec**
 
 <ins>groupSort with Digit Buckets average time</ins>: **1.1380 sec**
 
@@ -244,7 +244,7 @@ GPU: NVIDIA GeForce RTX 2060 Super
 
 <ins>mergeSort average time</ins>: **3.5301 sec**
 
-<ins>groupSort average time</ins>: **0.1719 sec**
+<ins>groupSort average time</ins>: **0.1672 sec**
 
 <ins>groupSort with Digit Buckets average time</ins>: **0.9341 sec**
 

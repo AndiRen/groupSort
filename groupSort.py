@@ -104,12 +104,13 @@ def sort_the_keys(sorting_dict,min_,max_):
     
     #for each spot in the range, look for a matching key in the dict
     for i in range(min_, max_+1):
-        try:
+        if i in sorting_dict:
+        #try:
             #populate the instances of a matcing key into an array
             sorted_array+=[i]*sorting_dict[i]
         #ignore spots in the range that weren't in the original array
-        except:
-            pass
+        #except:
+        #    pass
     
     return sorted_array
 

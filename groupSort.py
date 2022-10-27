@@ -385,8 +385,9 @@ def sort_top_halves(top_dict,top_min,top_max):
     
     #for every spot in the top-halve's range, attempt to find a matching key in the dict 
     for i in range(int(top_min), int(top_max)+1): 
-        #concatanate all top-halves into a sorted_array for the bucket
-        sorted_array+=(top_dict[str(i)])
+        if str(i) in top_dict:
+            #concatanate all top-halves into a sorted_array for the bucket
+            sorted_array+=(top_dict[str(i)])
     
     return sorted_array
 ####################################################################################################

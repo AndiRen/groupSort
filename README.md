@@ -214,7 +214,7 @@ GPU: NVIDIA GeForce RTX 2060 Super
 
 <ins>Basic groupSort average time</ins>: **3.4003 sec**
 
-<ins>groupSort with Digit Buckets average time</ins>: **2.2284 sec**
+<ins>groupSort with Digit Buckets average time</ins>: **3.3328 sec**
 
 ### 1 million elements, 10 million range, 100 iterations
 

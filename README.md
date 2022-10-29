@@ -5,7 +5,7 @@ A sorting algorithm that uses hash tables and range to approach a O(n) time comp
 
 *UPDATE*
 
-It turns out that this approach has been done before. For an example of this on geeksforgeeks.
+It turns out that this approach has been done before. For an example of this on geeksforgeeks.  
 The code there is contributed by Rituraj Jain, and the implementation is more efficient that what I do.  
 <ins>https://www.geeksforgeeks.org/sorting-using-trivial-hash-function/</ins>  
 

@@ -3,9 +3,15 @@
 # 1. Overview  
 A sorting algorithm that uses hash tables and range to approach a O(n) time complexity.  
 
-Note --  
-I recently became aware of two sorting algorithms called bucketSort and countingSort.  
-I haven’t looked at them in great detail, but I think some of my ideas here share a fair bit in common with some of their ideas.
+UPDATE --  
+It turns out that this approach has been done before. For an example of this on geeksforgeeks.
+The code there is contributed by Rituraj Jain, and the implementation is more efficient that what I do.  
+<ins>https://www.geeksforgeeks.org/sorting-using-trivial-hash-function/</ins>  
+
+Additionally, there is another algorithm called, Hash Sort, created by William Gilreath.  
+An implementation can be found at: <ins>https://www.geeksforgeeks.org/hash-sort-algorithm/</ins>  
+A paper on the topic is located at: <ins>https://arxiv.org/abs/cs/0408040</ins>  
+William's website for more details: <ins>https://wgilreath.github.io/WillHome.html#Source_Code</ins>   
 
 # 2. Basic groupSort
 

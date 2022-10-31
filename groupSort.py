@@ -11,7 +11,7 @@ import time
 
 arr1=[random.randint(0, 100000000) for i in range(1000000)] #mergeSort is better
 arr2=[random.randint(0, 55000000) for i in range(1000000)] #range upper limit groupSort with digit buckets
-arr3=[random.randint(0, 15000000) for i in range(1000000)] #range upper limit groupSort basic
+arr3=[random.randint(0, 35000000) for i in range(1000000)] #range upper limit groupSort basic
 arr4=[random.randint(0, 10000000) for i in range(1000000)] #both groupSorts are beating mergeSort
 arr5=[random.randint(0, 1000000) for i in range(1000000)] #groupSort basic starts outperforming groupSort with digit buckets
 arr6=[random.randint(0, 100000) for i in range(1000000)] #groupSort is faster than mergeSort

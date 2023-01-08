@@ -3,6 +3,8 @@
 # 1. Overview  
 A sorting algorithm that uses hash tables and range to approach a O(n) time complexity.  
 
+If you are interested in reading about my thought process, check out this [blog](https://medium.com/@ajchristian86/doing-better-than-o-nlog-n-part-1-39b4debccdca) about it on medium.
+
 *UPDATE*
 
 It turns out that this approach has been done before.  

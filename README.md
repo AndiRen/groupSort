@@ -62,8 +62,7 @@ If the range is much larger than the number of elements to be sorted, groupSort 
 If the range is much smaller than the number of elements to be sorted, groupSort will be very fast.
 
 In theory, we would expect the upper threshold of an appropriate range to be nlog(n), where n is the size of the array.  
-In practice, due to more computationally expensive operations being done in groupSort, it's upper range threshold  
-is around 2/3*nlog(n).
+In practice, it's upper range threshold is observed to be around 2/3*nlog(n).
 
 ### 2.2.2 Integers
 
